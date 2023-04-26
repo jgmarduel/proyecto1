@@ -20,7 +20,7 @@
   
 
   .container {
-    --fontsize: 14px;
+    --fontsize: 18px;
   }
   
   /* Styles */ 
@@ -30,6 +30,8 @@
   
   h2 {
     border-bottom: 2px solid var(--linea-3);
+    size: 16px;
+    color: var(--linea-3);
   }
   
   .container {
@@ -41,6 +43,12 @@
   
   @media screen and (min-width: 450px) {
     .container {
-      --fontsize: 28px;
+      --fontsize: 14px;
+      --color: var(--linea-3);
+      background-color: var(--blanco);
+    }
+    h2 {
+        size: 14px;
+
     }
   }
